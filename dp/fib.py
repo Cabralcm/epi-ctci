@@ -10,8 +10,9 @@ def fib(n: int) -> int:
         return fib (n-1) + fib(n-2) 
 
 
-#Na
+#Fib with DP (memozied solution)
+cache: Dict[int, int] = {}
+
 def fib_dp(n: int) -> int:
     if n <= 1:
         return n
-    elif 
