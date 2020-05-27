@@ -36,7 +36,7 @@ def fib_cache(n:int) -> int:
         f_2, f_1 = f_1, f
     return f_1
 
-#Testing
+# Performance ;pTesting
 n_list = [2,4,8,16,32]
 funcs = {"Fib":fib, "Fib DP":fib_dp, "Fib Cache":fib_cache}
 for name,func in funcs.items():

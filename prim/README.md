@@ -1,5 +1,12 @@
 # Primitives
 
+## Bootcamp
+
+```
+
+```
+
+
 Variables
 - Come in types
 - Type --> Classification of data that provides the possible encodings for information to be represented

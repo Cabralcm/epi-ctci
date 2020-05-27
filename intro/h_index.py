@@ -8,6 +8,8 @@ H-index: Largest number h, s.t. the researcher has published h papers that each 
 my_list = [4,1,2,4,5,10,22,12,4,20]
 
 #Brute Force
+# T: O(n^2) --> Unacceptable
+# S: O(n) the input, O(1) --> variable, counter, etc
 def h_index(input: List[int])-> int:
     h_index = 0
     count = 0
@@ -21,5 +23,6 @@ def h_index(input: List[int])-> int:
     return h_index - 1
 
 print(h_index(my_list))
-            
+
+#            
 
