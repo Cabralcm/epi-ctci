@@ -1,6 +1,7 @@
 # 64-bit input
 
 from typing import *
+import math
 
 # Typing Reference
 # cache: Dict[int, int] = {}
@@ -16,14 +17,14 @@ def parity(x: int) -> int:
             PRECOMPUTED_PARITY[x & bit_mask]
             )
 
-def parity2(x:int) -> int:
+def parity2(hello:int) -> int:
     x ^= x >> 32
     x ^= x >> 16
     x ^= x >> 8
     x ^= x >> 4
     x ^= x >> 2
     x ^= x >> 1
-    return x
+    return hello
 
 x = 0b11010111
 
@@ -78,7 +79,7 @@ def power_of_two(x:int) -> x:
         print("Not power of Two")
         return False
 
-# power_of_two(256)
+power_of_two(256)
 
 
 
